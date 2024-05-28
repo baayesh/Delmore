@@ -1,0 +1,25 @@
+.services-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1em auto;
+    max-width: 1440px;
+    background-color: burlywood;
+
+}
+
+.individual-service-container{
+
+}
+
+.service-icon{
+
+}
+
+.service-title{
+
+}
+
+.service-description{
+
+}

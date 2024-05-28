@@ -1,0 +1,16 @@
+.usp-main{
+    display: flex;
+    margin:1em auto;
+    max-width: 1440px;
+    justify-content: space-between;
+    background-color: cadetblue;
+}
+
+.usp-cta{
+    flex: 1;
+}
+
+.usp-img{
+    flex:1;
+}
+

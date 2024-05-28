@@ -1,5 +1,5 @@
 .header-container{
-    background-color: aquamarine;
+
 }
 
 .container {
@@ -15,8 +15,9 @@
   
 .logo {
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: 700;
     color: #000;
+    font-family: "cabin", sans-serif;
 }
   
 .nav {
@@ -36,11 +37,15 @@
   
 .nav-link {
     text-decoration: none;
-    color: #000;
+    color: #7b7b7b;
     padding: 5px 10px;
+    font-family: 'cabin', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
 }
   
 .nav-link:hover {
-    background-color: #eee;
+    text-decoration: underline;
+    color: var(--secondary-color);
 }
   

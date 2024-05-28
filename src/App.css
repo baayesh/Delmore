@@ -1,3 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+.root{
+/* Variables */
+/* Font Sizes */
+  .heading{
+    font-family: 'cabin', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .paragraphs{
+    font-family: 'cabin', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+  }
+
+  --secondary-color:#61CE70;
+}
+
+
+
 .App {
   text-align: center;
   margin:0;
