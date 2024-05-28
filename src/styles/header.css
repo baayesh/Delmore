@@ -1,0 +1,46 @@
+.header-container{
+    background-color: aquamarine;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+  
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+}
+  
+.nav {
+    display: flex;
+}
+  
+.nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+ 
+}
+  
+.nav-item {
+    margin-right: 20px;
+}
+  
+.nav-link {
+    text-decoration: none;
+    color: #000;
+    padding: 5px 10px;
+}
+  
+.nav-link:hover {
+    background-color: #eee;
+}
+  
