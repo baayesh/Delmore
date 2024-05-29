@@ -18,34 +18,44 @@ const Counter = () => {
               
                   <h1 className="counter-number">
                     {counterOn && (
-                      <CountUp start={0} end={20} duration={3} delay={0} />
+                      <CountUp start={0} end={10} duration={3} delay={0} />
                     )}
                     +
                   </h1>
-                  <h4 className="counter-title">Projects Completed</h4>
+                  <h4 className="counter-title">AWARDS</h4>
                
               </div>
               <div className="col " style={{overflow:"hidden"}}>
                 
                   <h1 className="counter-number">
                     {counterOn && (
-                      <CountUp start={0} end={50} duration={3} delay={0} />
+                      <CountUp start={0} end={20} duration={3} delay={0} />
                     )}
                     +
                   </h1>
-                  <h4 className="counter-title">Happy Customers</h4>
+                  <h4 className="counter-title">PRODUCTS</h4>
                 
               </div>
               <div className="col " style={{overflow:"hidden"}}>
                 
                   <h1 className="counter-number">
                     {counterOn && (
-                      <CountUp start={0} end={30} duration={3} delay={0} />
+                      <CountUp start={0} end={15} duration={3} delay={0} />
                     )}
                     +
                   </h1>
-                  <h4 className="counter-title">T.Me Talent</h4>
+                  <h4 className="counter-title">PARTNERS</h4>
               </div>
+              <div className="col " style={{overflow:"hidden"}}>
+                
+                <h1 className="counter-number">
+                  {counterOn && (
+                    <CountUp start={0} end={10} duration={3} delay={0} />
+                  )}
+                  +
+                </h1>
+                <h4 className="counter-title">PRODUCTS</h4>
+            </div>
             </div>
           </div>
         
