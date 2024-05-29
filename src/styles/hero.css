@@ -1,5 +1,5 @@
 .hero {
-    background-color: #00b3e6; 
+    background: linear-gradient(to bottom, #80FF00, #006600);
     color: #fff; 
     padding: 100px 0; 
     text-align: left;
@@ -13,12 +13,20 @@
 }
   
 .hero-title {
-    font-size: 3rem; /* Adjust font size as needed */
-    margin-bottom: 20px; /* Add margin below the title */
+    font-size: 5rem;
+    margin-bottom: 0; 
+    font-family: 'cabin', sans-serif; 
+    letter-spacing: 0.3rem;
+    display: flex;
+    align-items: end;
 }
   
 .hero-text {
-    font-size: 1.5rem; /* Adjust font size as needed */
-    line-height: 1.5; /* Adjust line height as needed */
+    font-family: 'cabin', 'sans-serif';
+    letter-spacing: 0.3rem;
+    font-weight: 700;
+    font-size: 1.5rem; 
+    margin-top: 0;
+    line-height: 1.5;
 }
   

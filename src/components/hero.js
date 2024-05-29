@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="hero-container">
       <div className="hero-content">
         <h1 className="hero-title">Delmore</h1>
-        <p className="hero-text">Quality, Ethics, Sustainability</p>
+        <p className="hero-text">Quality-Ethics-Sustainability</p>
       </div>
     </div>
   </section>
