@@ -1,0 +1,54 @@
+.products-container{
+    margin-top: 3em;
+}
+
+
+.products-title h1{
+    font-family: 'cabin', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.product h3{
+    font-family: 'cabin', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 0.4em;
+    letter-spacing: 0.1rem;
+    font-size: 1.3rem;
+}
+
+.product p{
+    margin:0;
+    text-align: center;
+    font-family: 'cabin', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: brown;
+}
+
+.strikethrough{
+    text-decoration:line-through;
+    font-weight: 100 !important;
+    color: #707070 !important;
+}
+
+.add-to-cart-btn{
+margin-top: 1em;
+padding: 0.5em;
+font-family: 'cabin', sans-serif;
+font-size: 1rem;
+font-weight: 700;
+color: #f2f2f2;
+background: linear-gradient(to bottom, #80FF00, #006600);
+border: 0px;
+margin-bottom: 2em;
+
+}
+

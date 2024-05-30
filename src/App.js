@@ -5,6 +5,7 @@ import Services from './components/services';
 import USP from './components/usp';
 import Counter from './components/counter';
 import About from './components/about';
+import Products from './components/products';
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       <Services/>
       <Counter/>
       <About/>
-      <USP/>  
+      <USP/>
+      <Products/> 
     </div>
   );
 }
