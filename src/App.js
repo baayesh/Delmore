@@ -6,7 +6,7 @@ import USP from './components/usp';
 import Counter from './components/counter';
 import About from './components/about';
 import Products from './components/products';
-
+import Getintouch from './components/getintouch';
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
       <About/>
       <USP/>
       <Products/> 
+      <Getintouch/>
     </div>
   );
 }
