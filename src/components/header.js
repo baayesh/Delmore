@@ -1,12 +1,13 @@
 import React from "react";
 import "../styles/header.css";
+import logo from "../assets/logo/logo.png"
 
 const Header = () => {
   return (
     <header className="header-container">
       <div className="container">
         <div className="header-content">
-          <h1 className="logo">Delmore</h1>
+          <img src={logo} alt="logo" className="logo" />
           <nav className="nav">
             <div className="nav-list">
               <a href="/" className="nav-link">
