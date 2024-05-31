@@ -1,0 +1,39 @@
+.footer-container{
+    background-color: #373A40;
+}
+
+.footer-main{
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+    justify-content: space-between;  
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column h3{
+    font-family: 'cabin', sans-serif;
+    color: #707070;
+    letter-spacing: 0.3rem;
+    font-size: 0.9rem;
+}
+
+.footer-column p{
+    font-family: 'cabin', sans-serif;
+    color:#f2f2f2;
+    margin-bottom: 0em;
+    
+
+}
+
+.footer-lastline p{
+    font-family: 'cabin', sans-serif;
+    margin:0;
+    margin-top: 2em;
+    color: #f2f2f2;
+
+}
+
