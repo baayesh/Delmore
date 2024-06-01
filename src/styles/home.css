@@ -1,0 +1,50 @@
+.home-container{
+    position: relative;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+}
+
+.contact-icon-div{
+    width: 2.5em;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5em;
+    border-radius: 1em 0em 0em 1em ;
+    padding: 0.5em ;
+
+}
+
+.contact-icon-div:hover{
+    transform: translateX(-10px);
+    transition: transform 0.2 ease-in-out;
+}
+
+.contact-icon-div:hover .contact-icon-mail{
+    color:#ff8c00;
+}
+
+.contact-icon{
+    height: 1.3em;
+    width: 1.3em;
+    color: #f2f2f2;
+}
+
+.contact-icon-mail{
+    background-color: orange;
+}
+
+.contact-icon-whatsapp{
+    background-color: green;
+}
+
+.contact-icon-mobile{
+    background-color: gray;
+}
+
