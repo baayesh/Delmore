@@ -12,6 +12,7 @@ import "../styles/home.css";
 import { MdEmail } from "react-icons/md";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaPhone } from "react-icons/fa6";
+import Testimonials from "../components/testimonials";
 
 const Home = () => {
   return (
@@ -35,6 +36,7 @@ const Home = () => {
       <USP />
       <Products />
       <Getintouch />
+      <Testimonials />
       <Footer />
     </div>
   );

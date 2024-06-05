@@ -1,50 +1,143 @@
-.home-container{
-    position: relative;
+.home-container {
+  position: relative;
 }
 
-.contact-container{
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    right: 0;
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 0;
 }
 
-.contact-icon-div{
-    width: 2.5em;
-    height: 2em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 0.5em;
-    border-radius: 1em 0em 0em 1em ;
-    padding: 0.5em ;
+.contact-icon-div {
+  width: 2.5em;
+  height: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5em;
+  border-radius: 1em 0em 0em 1em;
+  padding: 0.5em;
+}
+
+.contact-icon-div:hover {
+  transform: translateX(-10px);
+  transition: transform 0.2 ease-in-out;
+}
+
+.contact-icon-div:hover .contact-icon-mail {
+  color: #ff8c00;
+}
+
+.contact-icon {
+  height: 1.3em;
+  width: 1.3em;
+  color: #f2f2f2;
+}
+
+.contact-icon-mail {
+  background-color: orange;
+}
+
+.contact-icon-whatsapp {
+  background-color: green;
+}
+
+.contact-icon-mobile {
+  background-color: gray;
+}
+
+/* Predefined - texts */
+.heading {
+  font-family: "cabin", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.subheading {
+  font-family: "cabin", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.paragraph {
+  font-family: "cabin", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.tag-1 {
+  font-family: "cabin", sans-serif;
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: #006600;
+  margin: 0;
+}
+
+/* Testimonials-Section 8 */
+.testimaonials-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  margin: 0em auto;
+}
+
+.testimonials-heading {
+  text-align: left;
+}
+
+.testimonials-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Testimonaials - Card 1 */
+.testimonials-card-1 {
+  padding: 2em;
+}
+
+.testimonials-card-1-heading {
+  text-align: left;
+}
+
+.testimonials-card-1-content {
+  text-align: left;
+}
+
+.testimonials-card-1-content p {
+  margin-top: 1.9em;
+}
+
+.testimonials-card-1-buttons {
+  display: flex;
+  text-align: left;
+  padding: 2em 2em 2em 0em;
+  gap: 0.4em;
+}
+
+.testimonials-card-1-buttons button{
+    padding:0.9em;
+    border-width: 0px;
+  
+}
+
+.testimonials-button-1{
+    background-color: #373A40;
 
 }
 
-.contact-icon-div:hover{
-    transform: translateX(-10px);
-    transition: transform 0.2 ease-in-out;
+
+
+
+.testimonials-button-2{
+    background-color: #006600;
 }
 
-.contact-icon-div:hover .contact-icon-mail{
-    color:#ff8c00;
-}
-
-.contact-icon{
-    height: 1.3em;
-    width: 1.3em;
+.testimonials-arrow{
     color: #f2f2f2;
+    width: 2em;
 }
-
-.contact-icon-mail{
-    background-color: orange;
-}
-
-.contact-icon-whatsapp{
-    background-color: green;
-}
-
-.contact-icon-mobile{
-    background-color: gray;
-}
-
