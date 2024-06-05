@@ -105,6 +105,40 @@
 
   margin: 0;
 }
+/* Hero - Section 1 */
+.hero {
+  background: linear-gradient(to bottom, #80FF00, #006600);
+  color: #fff; 
+  padding: 100px 0; 
+  text-align: left;
+  margin: 2em auto;
+  margin-top: 1em;
+
+}
+
+.hero-container {
+  padding-left: 3em;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 5rem;
+  margin-bottom: 0; 
+  font-family: 'cabin', sans-serif; 
+  letter-spacing: 0.3rem;
+  display: flex;
+  align-items: end;
+}
+
+.hero-text {
+  font-family: 'cabin', 'sans-serif';
+  letter-spacing: 0.3rem;
+  font-weight: 700;
+  font-size: 1.5rem; 
+  margin-top: 0;
+  line-height: 1.5;
+}
+
 
 /* Services - Section 2 */
 .services-container{

@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/header";
-import Hero from "../components/hero";
+import Hero from "../components/home/hero";
 import Services from "../components/home/services";
 import USP from "../components/usp";
 import Counter from "../components/counter";
@@ -24,19 +24,19 @@ const Home = () => {
           <MdEmail className="contact-icon" />
         </div>
         <div className="contact-icon-div contact-icon-whatsapp">
-          <IoLogoWhatsapp className="contact-icon"/>
+          <IoLogoWhatsapp className="contact-icon" />
         </div>
         <div className="contact-icon-div contact-icon-mobile">
-          <FaPhone className="contact-icon"/>
+          <FaPhone className="contact-icon" />
         </div>
       </div>
       <Hero />
       <Services />
-      <Counter />
       <About />
-      <Awards />
       <USP />
       <Products />
+      <Counter />
+      <Awards />
       <Getintouch />
       <Testimonials />
       <Footer />
