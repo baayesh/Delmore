@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/home.css";
 import { HiArrowSmallLeft } from "react-icons/hi2";
 import { HiArrowSmallRight } from "react-icons/hi2";
+import person from '../assets/Home/R.jpg'
 
 const Testimonials = () => {
   return (
@@ -32,26 +33,41 @@ const Testimonials = () => {
               </button>
             </div>
           </div>
-          <div className="testimonials-card-2">
-            <div className="testimonials-card-heading">
-              <h1>John Doe</h1>
-            </div>
-            <div className="testimonials-card-content">
-              <p>
+          {/* Card 2 */}
+          <div className="testimonials-card-2 column">
+            <div>  </div>
+            <div className="testimonials-card-2-content">
+              <p className="paragraph">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
               </p>
+            </div>
+            <div className="testimonials-card-2-party row">
+                <div className="testimonials-card-2-party-img">
+                    <img src={person} alt="" />
+                </div>
+                <div className="column testimonials-card-2-party-content">
+                    <h5 className="subheading__2">Name</h5>
+                    <p className="tag__2">Position</p>
+                </div>
             </div>
           </div>
-          <div className="testimonials-card-3">
-            <div className="testimonials-card-heading">
-              <h1>John Doe</h1>
-            </div>
-            <div className="testimonials-card-content">
-              <p>
+          <div className="testimonials-card-3 column">
+            <div>  </div>
+            <div className="testimonials-card-3-content">
+              <p className="paragraph">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
               </p>
+            </div>
+            <div className="testimonials-card-3-party row">
+                <div className="testimonials-card-2-party-img">
+                    <img src={person} alt="" />
+                </div>
+                <div className="column testimonials-card-3-party-content">
+                    <h5 className="subheading__2">Name</h5>
+                    <p className="tag__2">Position</p>
+                </div>
             </div>
           </div>
         </div>
