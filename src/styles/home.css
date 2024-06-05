@@ -56,6 +56,11 @@
   display: flex;
   flex-direction: column;
 }
+
+.container{
+  max-width: 1440px;
+  margin: 0em auto;
+}
 /* Predefined - texts */
 .heading {
   font-family: "cabin", sans-serif;
@@ -100,6 +105,40 @@
 
   margin: 0;
 }
+
+/* About Us - Section 3 */
+.about__container{
+  margin-top: 2em !important;
+}
+
+.about__image__container{
+  flex: 2;
+
+}
+
+.about__text__container{
+  flex: 2;
+}
+
+.about__text__container h5{
+ text-align: left;
+}
+
+.about__text__container p{
+  text-align: left;
+ }
+
+.about__image__container img{
+  max-width: 20em;
+}
+
+
+
+
+
+/* Licence certificate and awards - Section -4 */
+
+
 /* Contact Us(Get in Touch) - Section 7 */
 .get-in-touch-container {
   background: linear-gradient(to bottom, #80ff00, #006600);
