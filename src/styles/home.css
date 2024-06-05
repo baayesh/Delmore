@@ -100,13 +100,70 @@
 
   margin: 0;
 }
+/* Contact Us(Get in Touch) - Section 7 */
+.get-in-touch-container {
+  background: linear-gradient(to bottom, #80ff00, #006600);
+  padding: 1em 0em;
+}
+
+.get-in-touch-main {
+  display: flex;
+  max-width: 1440px;
+  margin: 2em auto;
+  justify-content: space-around;
+}
+
+.get-in-touch-left {
+}
+
+.get-in-touch-left h1 {
+  font-family: "cabin", sans-serif;
+  font-weight: 700;
+  color: #f2f2f2;
+  font-size: 3rem;
+  margin-bottom: 0em;
+}
+
+.get-in-touch-left h2 {
+  font-family: "cabin", sans-serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  font-size: 2rem;
+  margin-bottom: 0em;
+}
+
+.get-in-touch-left p {
+  font-family: "cabin", sans-serif;
+  font-weight: 200;
+  color: #f2f2f2;
+  font-size: 1rem;
+  margin-bottom: 0em;
+}
+
+.line {
+  background-color: #f2f2f2;
+  width: 2px;
+  height: auto;
+}
+.get-in-touch-right {
+  margin-top: 3em;
+  color: #f2f2f2;
+}
+
+.get-in-touch-right p {
+  font-family: "cabin", sans-serif;
+  font-weight: 200;
+  color: #f2f2f2;
+  font-size: 1rem;
+  margin-bottom: 0em;
+}
 
 /* Testimonials-Section 8 */
 .testimaonials-container {
   display: flex;
   flex-direction: column;
   max-width: 1440px;
-  margin: 0em auto;
+  margin: 3em auto;
 }
 
 .testimonials-heading {
@@ -199,7 +256,7 @@
 
 /* Testiminials - Card 3 */
 .testimonials-card-3 {
-  background-color:#373A40 ;
+  background-color: #373a40;
   color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 2em;
@@ -231,3 +288,46 @@
 .testimonials-card-3-party-content {
   text-align: left;
 }
+
+
+.email__submission__container {
+  margin-top: 2em;
+  position: relative;
+}
+
+.email__submission__container input {
+  height: 4em;
+  width: 25em;
+  border-radius: 2em;
+  border-width: 0em;
+  background-color: #373a40;
+  
+  
+}
+
+.email__submission__container input::placeholder {
+  font-family: "cabin", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 900;
+  padding-left: 1em;
+  position: relative;
+}
+
+.email__submission__container button {
+  height: 3.5em;
+  width: 3.5em;
+  border-radius:3.5em;
+  margin-right:0.5em ;
+  position: absolute;
+  right: 0;
+  border-width: 0em;
+  background-color: #006600;
+}
+
+.email__submission__button{
+  color: white;
+  height: 25px;
+  width: 25px;
+}
+
+
