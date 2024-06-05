@@ -5,44 +5,44 @@ import product from "../assets/Products/products.png";
 const Products = () => {
   return (
     <section>
-      <div className="products-container">
+      <div className="products-container container">
         <div className="">
           <div className="products-title">
             <h1>Available for You!!!</h1>
           </div>
           <div className="row">
-            <div className="product">
+            <div className="product column">
               <img src={product} alt="product" />
               <h3>Product 1</h3>
-              <p className="strikethrough">$1452 </p>
-              <p>$1254</p>
-              <button className="add-to-cart-btn">Add to Cart</button>
+              <p className="paragraph">
+                Lorem ipsum sit amet Lorem ipsum sit amet Lore ipsum sit amet
+              </p>
             </div>
             <div>
               <div className="product">
                 <img src={product} alt="product" />
                 <h3>Product 1</h3>
-                <p className="strikethrough">$1452 </p>
-                <p>$1254</p>
-                <button className="add-to-cart-btn">Add to Cart</button>
+                <p className="paragraph">
+                  Lorem ipsum sit amet Lorem ipsum sit amet Lore ipsum sit amet
+                </p>
               </div>
             </div>
             <div>
               <div className="product">
                 <img src={product} alt="product" />
                 <h3>Product 1</h3>
-                <p className="strikethrough">$1452 </p>
-                <p>$1254</p>
-                <button className="add-to-cart-btn">Add to Cart</button>
+                <p className="paragraph">
+                  Lorem ipsum sit amet Lorem ipsum sit amet Lore ipsum sit amet
+                </p>
               </div>
             </div>
             <div>
               <div className="product">
                 <img src={product} alt="product" />
                 <h3>Product 1</h3>
-                <p className="strikethrough">$1452 </p>
-                <p>$1254</p>
-                <button className="add-to-cart-btn">Add to Cart</button>
+                <p className="paragraph">
+                  Lorem ipsum sit amet Lorem ipsum sit amet Lore ipsum sit amet
+                </p>
               </div>
             </div>
           </div>
@@ -51,36 +51,36 @@ const Products = () => {
               <div className="product">
                 <img src={product} alt="product" />
                 <h3>Product 1</h3>
-                <p className="strikethrough">$1452 </p>
-                <p>$1254</p>
-                <button className="add-to-cart-btn">Add to Cart</button>
+                <p className="paragraph">
+                  Lorem ipsum sit amet Lorem ipsum sit amet Lore ipsum sit amet
+                </p>
               </div>
             </div>
             <div>
               <div className="product">
                 <img src={product} alt="product" />
                 <h3>Product 1</h3>
-                <p className="strikethrough">$1452 </p>
-                <p>$1254</p>
-                <button className="add-to-cart-btn">Add to Cart</button>
+                <p className="paragraph">
+                  Lorem ipsum sit amet Lorem ipsum sit amet Lore ipsum sit amet
+                </p>
               </div>
             </div>
             <div>
               <div className="product">
                 <img src={product} alt="product" />
                 <h3>Product 1</h3>
-                <p className="strikethrough">$1452 </p>
-                <p>$1254</p>
-                <button className="add-to-cart-btn">Add to Cart</button>
+                <p className="paragraph">
+                  Lorem ipsum sit amet Lorem ipsum sit amet Lore ipsum sit amet
+                </p>
               </div>
             </div>
             <div>
               <div className="product">
                 <img src={product} alt="product" />
                 <h3>Product 1</h3>
-                <p className="strikethrough">$1452 </p>
-                <p>$1254</p>
-                <button className="add-to-cart-btn">Add to Cart</button>
+                <p className="paragraph">
+                  Lorem ipsum sit amet Lorem ipsum sit amet Lore ipsum sit amet
+                </p>
               </div>
             </div>
           </div>
