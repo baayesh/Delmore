@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/services.css";
+import '../../styles/home.css';
 import { FaBucket } from "react-icons/fa6";
 import { IconContext } from "react-icons";
 import { LuPackageCheck } from "react-icons/lu";
