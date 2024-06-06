@@ -14,6 +14,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { FaPhone } from "react-icons/fa6";
 import Testimonials from "../components/testimonials";
 import Awards from "../components/home/awards";
+import Partners from '../components/home/partners';
 
 const Home = () => {
   return (
@@ -33,6 +34,7 @@ const Home = () => {
       <Hero />
       <Services />
       <About />
+      <Partners />
       <USP />
       <Products />
       <Counter />

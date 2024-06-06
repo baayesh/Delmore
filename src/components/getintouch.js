@@ -8,9 +8,7 @@ const Getintouch = () => {
     <div className="get-in-touch-container">
       <div className="get-in-touch-main">
         <div className="get-in-touch-left">
-          <p>Monday to Friday: 9:00 AM to 5:00 PM</p>
-          <p>Saturday: 9:00 AM to 1:00 PM</p>
-          <p>Sunday: Closed</p>
+
 
           <h2>+64 22 0437 647</h2>
           <p>
