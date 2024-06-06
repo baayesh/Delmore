@@ -143,7 +143,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 2em auto;
+  margin: 5em auto;
   max-width: 1440px;
 }
 
@@ -190,8 +190,12 @@
 }
 
 /* About Us - Section 3 */
+.about-container {
+  background-color: #373a40;
+  padding: 5em 0em;
+  color: #f2f2f2;
+}
 .about__container {
-  margin-top: 6em !important;
 }
 
 .about__image__container {
@@ -208,6 +212,7 @@
 
 .about__text__container p {
   text-align: left;
+  letter-spacing: 0.05rem;
 }
 
 .about__image__container img {
@@ -216,8 +221,6 @@
 
 /* Our Partners - Section -4 */
 .partners__container {
-
-  
 }
 
 .partners__left {
@@ -225,11 +228,11 @@
   margin-top: 2em;
   align-items: flex-start;
 }
-.partners__left__container{
+.partners__left__container {
   align-items: flex-start;
 }
 
-.partners__left img{
+.partners__left img {
   margin-right: 4em;
 }
 
@@ -241,11 +244,101 @@
 .partners__right h4 {
   text-align: left;
   margin-bottom: 0.5em;
-  
 }
 
-.partners__right p{
+.partners__right p {
   text-align: left;
+}
+/* USP - Section 5 */
+.usp-main {
+  display: flex;
+  margin: 1em auto;
+  max-width: 1440px;
+  justify-content: space-between;
+}
+
+.usp-cta {
+  flex: 1;
+}
+
+.usp-cta h2 {
+  font-family: "cabin", sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  text-align: left;
+  margin-bottom: 0;
+  color: #006600;
+
+}
+
+.usp-cta p {
+  font-family: "cabin", sans-serif;
+  font-weight: 400;
+  margin-botom: 0;
+  font-size: 1.2rem;
+  text-align: left;
+  color: #707070;
+}
+
+.usp-button {
+  display: flex;
+  flex-direction: row;
+  justify-self: left;
+  font-family: "cabin", sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.1em;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1em 1.5em;
+  border-radius: 2em;
+  gap: 1em;
+  cursor: pointer;
+  border: 0px;
+}
+
+.usp-button:hover {
+  background-color: #373a40;
+}
+
+.usp-img {
+  flex: 1;
+  display: block;
+  width: 50%;
+  margin-top: 3em;
+}
+
+/* Products - Section 6 */
+.products-container {
+  margin-top: 3em;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  text-align: left;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.products-title h1 {
+  font-family: "cabin", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.product h3 {
+  font-family: "cabin", sans-serif;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 0.4em;
+  letter-spacing: 0rem;
+  font-size: 1.3rem;
+}
+
+.product p {
+  color: #707070;
+  font-size: 0.85rem;
 }
 
 /* Contact Us(Get in Touch) - Section 7 */

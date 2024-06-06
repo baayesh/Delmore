@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/usp.css";
+import "../../styles/home.css";
 import { FaHandPointRight } from "react-icons/fa";
-import usp from "../assets/usp.jpg";
+import usp from "../../assets/usp.jpg";
 
 const USP = () => {
   return (
@@ -22,11 +22,16 @@ const USP = () => {
           invidunt ut labore .
         </p>
 
-        <button className="usp-button">Learn More <div>
+        <button className="usp-button">
+          Learn More{" "}
+          <div>
             <FaHandPointRight />
-        </div> </button>
+          </div>{" "}
+        </button>
       </div>
-      <div className="usp-img"><img src={usp}/></div>
+      <div className="usp-img">
+        <img src={usp} />
+      </div>
     </div>
   );
 };
