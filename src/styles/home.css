@@ -7,10 +7,19 @@
   flex-direction: column;
   position: fixed;
   right: 0;
+  gap: 0.7em;
+}
+
+.contact-icon-div::before{
+  content: "";
+  position: absolute;
+  background-color: 	rgba(0, 102, 0, 0.7);
+  z-index: -1;
+  filter: blur(8px);
 }
 
 .contact-icon-div {
-  width: 2.5em;
+ 
   height: 2em;
   display: flex;
   align-items: center;
@@ -18,15 +27,18 @@
   margin-bottom: 0.5em;
   border-radius: 1em 0em 0em 1em;
   padding: 0.5em;
+  gap:0.7em;
+  background-color: 	rgb(0, 102, 0, 0.7);
+
+}
+
+.contact-icon-div p{
+  color:#f2f2f2;
 }
 
 .contact-icon-div:hover {
   transform: translateX(-10px);
   transition: transform 0.2 ease-in-out;
-}
-
-.contact-icon-div:hover .contact-icon-mail {
-  color: #ff8c00;
 }
 
 .contact-icon {
@@ -35,17 +47,7 @@
   color: #f2f2f2;
 }
 
-.contact-icon-mail {
-  background-color: orange;
-}
 
-.contact-icon-whatsapp {
-  background-color: green;
-}
-
-.contact-icon-mobile {
-  background-color: gray;
-}
 /* Predefined - layouts */
 .row {
   display: flex;
@@ -98,11 +100,18 @@
   margin: 0;
 }
 
+.tag__1{
+  font-family: "cabin", sans-serif;
+  font-weight: 900;
+  font-size: 0.9rem;
+  color: #006600;
+  margin: 0;
+}
+
 .tag__2 {
   font-family: "cabin", sans-serif;
   font-weight: 300;
   font-size: 0.9rem;
-
   margin: 0;
 }
 /* Hero - Section 1 */
@@ -426,7 +435,7 @@
 .get-in-touch-main {
   display: flex;
   max-width: 1440px;
-  margin: 2em auto;
+  margin: 1em auto;
   justify-content: space-around;
 }
 
@@ -463,16 +472,51 @@
   height: auto;
 }
 .get-in-touch-right {
-  margin-top: 3em;
   color: #f2f2f2;
 }
 
 .get-in-touch-right p {
-  font-family: "cabin", sans-serif;
-  font-weight: 200;
-  color: #f2f2f2;
-  font-size: 1rem;
+  color: #373a40;
   margin-bottom: 0em;
+  text-align: left;
+}
+
+.email__submission__container {
+  margin-top: 1em;
+  position: relative;
+}
+
+.email__submission__container input {
+  height: 4em;
+  width: 25em;
+  border-radius: 2em;
+  border-width: 0em;
+  background-color: #373a40;
+}
+
+.email__submission__container input::placeholder {
+  font-family: "cabin", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 900;
+  padding-left: 1em;
+  position: relative;
+}
+
+.email__submission__container button {
+  height: 3.5em;
+  width: 3.5em;
+  border-radius: 3.5em;
+  margin-right: 0.5em;
+  position: absolute;
+  right: 0;
+  border-width: 0em;
+  background-color: #006600;
+}
+
+.email__submission__button {
+  color: white;
+  height: 25px;
+  width: 25px;
 }
 
 /* Testimonials-Section 8 */
@@ -606,40 +650,4 @@
   text-align: left;
 }
 
-.email__submission__container {
-  margin-top: 2em;
-  position: relative;
-}
 
-.email__submission__container input {
-  height: 4em;
-  width: 25em;
-  border-radius: 2em;
-  border-width: 0em;
-  background-color: #373a40;
-}
-
-.email__submission__container input::placeholder {
-  font-family: "cabin", sans-serif;
-  font-size: 0.8rem;
-  font-weight: 900;
-  padding-left: 1em;
-  position: relative;
-}
-
-.email__submission__container button {
-  height: 3.5em;
-  width: 3.5em;
-  border-radius: 3.5em;
-  margin-right: 0.5em;
-  position: absolute;
-  right: 0;
-  border-width: 0em;
-  background-color: #006600;
-}
-
-.email__submission__button {
-  color: white;
-  height: 25px;
-  width: 25px;
-}

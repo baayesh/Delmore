@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../styles/home.css";
+import "../../styles/home.css";
 import { IoIosSend } from "react-icons/io";
 
 const Getintouch = () => {
@@ -18,7 +18,8 @@ const Getintouch = () => {
         </div>
         <div className="line"></div>
         <div className="get-in-touch-right column">
-          <h1 className="heading">Get in touch</h1>
+          <p className="tag__1">Drop us Your Email</p>
+          <h1 className="heading">We'll Get in touch</h1>
           <div className="row email__submission__container">
             <input type="email" placeholder="Email Address"></input>
             <button><IoIosSend className="email__submission__button" /></button>

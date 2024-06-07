@@ -5,7 +5,7 @@ import Services from "../components/home/services";
 import USP from "../components/home/usp";
 import Counter from "../components/home/counter";
 import About from "../components/home/about";
-import Getintouch from "../components/getintouch";
+import Getintouch from "../components/home/getintouch";
 import Footer from "../components/footer";
 import "../styles/home.css";
 import { MdEmail } from "react-icons/md";
@@ -19,14 +19,13 @@ const Home = () => {
     <div className="home-container">
       <Header />
       <div className="contact-container">
-        <div className="contact-icon-div contact-icon-mail">
-          <MdEmail className="contact-icon" />
-        </div>
-        <div className="contact-icon-div contact-icon-whatsapp">
+        <div className="contact-icon-div row ">
           <IoLogoWhatsapp className="contact-icon" />
+          <p className="tag__1">WhatsApp </p>
         </div>
-        <div className="contact-icon-div contact-icon-mobile">
+        <div className="contact-icon-div ">
           <FaPhone className="contact-icon" />
+          <p className="tag__1">Mobile </p>
         </div>
       </div>
       <Hero />
