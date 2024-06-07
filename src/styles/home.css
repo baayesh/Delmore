@@ -219,9 +219,34 @@
   max-width: 20em;
 }
 
+.about__button {
+  display: flex;
+  flex-direction: row;
+  justify-self: left;
+  max-width: 12em;
+  font-family: "cabin", sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.1em;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1em 1.5em;
+  border-radius: 2em;
+  gap: 1em;
+  cursor: pointer;
+  border: 0px;
+  margin-top: 1em;
+  left: 0;
+}
+
+.about__button:hover {
+  background-color: #44464b;
+
+  
+}
+
 /* Our Partners - Section -4 */
 .partners__container {
-  gap:2em;
+  gap:5em;
 }
 
 .partners__right {
@@ -244,7 +269,7 @@
 
 .partners__left h4 {
   text-align: left;
-  margin-bottom: 0.5em;
+  margin-bottom: 0em;
 }
 
 .partners__left p {

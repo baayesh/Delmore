@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/home.css";
 import aboutus from '../../assets/Home/A-us.png';
+import { FaHandPointRight } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -26,6 +27,13 @@ const About = () => {
             adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
             pulvinar dapibus leo.
           </p>
+          <button className="about__button">
+          Learn More{" "}
+          <div>
+            <FaHandPointRight />
+          </div>{" "}
+        </button>
+        
         </div>
         <div className="about__image__container">
           <img src={aboutus} alt="about us" />
