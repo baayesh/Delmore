@@ -268,15 +268,30 @@
 
 .counter-title{
   font-family: 'cabin',sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 1.5rem;
+  text-align: left;
   margin: 0em;
-  color:#f2f2f2;
+  color:#373a40;
+}
+
+
+.counter__number{
+  background-color:#006600;
+  padding: 1.5em 4em 1.5em 0.8em;
 }
 
 .counter__individual{
-  background-color:#006600;
-  padding: 4em;
+  width:20em;
+}
+
+.counter__individual h4{
+  margin-top: 0.5em;
+}
+
+.counter__individual p{
+  text-align: left;
+  color: #707070;
 }
 
 /* Our Partners - Section - 6 */
