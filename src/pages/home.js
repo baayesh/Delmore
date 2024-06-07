@@ -12,7 +12,7 @@ import "../styles/home.css";
 import { MdEmail } from "react-icons/md";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaPhone } from "react-icons/fa6";
-import Testimonials from "../components/testimonials";
+import Testimonials from "../components/home/testimonials";
 import Awards from "../components/home/awards";
 import Partners from '../components/home/partners';
 
