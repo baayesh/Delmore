@@ -3,7 +3,7 @@ import Header from "../components/header";
 import Hero from "../components/home/hero";
 import Services from "../components/home/services";
 import USP from "../components/home/usp";
-import Counter from "../components/counter";
+import Counter from "../components/home/counter";
 import About from "../components/home/about";
 import Getintouch from "../components/getintouch";
 import Footer from "../components/footer";
@@ -12,7 +12,6 @@ import { MdEmail } from "react-icons/md";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaPhone } from "react-icons/fa6";
 import Testimonials from "../components/home/testimonials";
-import Awards from "../components/home/awards";
 import Partners from "../components/home/partners";
 
 const Home = () => {
@@ -33,11 +32,11 @@ const Home = () => {
       <Hero />
       <Services />
       <About />
-      <Partners />
-      <USP />
       <Counter />
-      <Awards />
+      <USP />
+      <Partners />
       <Getintouch />
+
       <Testimonials />
       <Footer />
     </div>

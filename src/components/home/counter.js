@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
-import "../styles/counter.css";
+import "../../styles/home.css";
 
 
 const Counter = () => {
@@ -14,7 +14,7 @@ const Counter = () => {
       <div>
           <div className="counter-container ">
             <div className="row ">
-              <div className="col" style={{overflow:"hidden"}}>
+              <div className="col counter__individual" style={{overflow:"hidden"}}>
               
                   <h1 className="counter-number">
                     {counterOn && (
@@ -25,7 +25,7 @@ const Counter = () => {
                   <h4 className="counter-title">AWARDS</h4>
                
               </div>
-              <div className="col " style={{overflow:"hidden"}}>
+              <div className="col counter__individual" style={{overflow:"hidden"}}>
                 
                   <h1 className="counter-number">
                     {counterOn && (
@@ -36,7 +36,7 @@ const Counter = () => {
                   <h4 className="counter-title">PRODUCTS</h4>
                 
               </div>
-              <div className="col " style={{overflow:"hidden"}}>
+              <div className="col counter__individual"  style={{overflow:"hidden"}}>
                 
                   <h1 className="counter-number">
                     {counterOn && (
@@ -46,7 +46,7 @@ const Counter = () => {
                   </h1>
                   <h4 className="counter-title">PARTNERS</h4>
               </div>
-              <div className="col " style={{overflow:"hidden"}}>
+              <div className="col counter__individual" style={{overflow:"hidden"}}>
                 
                 <h1 className="counter-number">
                   {counterOn && (
@@ -54,7 +54,7 @@ const Counter = () => {
                   )}
                   +
                 </h1>
-                <h4 className="counter-title">PRODUCTS</h4>
+                <h4 className="counter-title">LOCATIONS</h4>
             </div>
             </div>
           </div>

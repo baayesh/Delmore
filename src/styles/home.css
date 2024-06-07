@@ -243,8 +243,43 @@
 
   
 }
+/* Counter - Section - 4 */
 
-/* Our Partners - Section -4 */
+.counter-container{
+  padding: 4em 0em;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0em auto;
+  align-items: center;
+  max-width: 1440px;
+}
+
+.counter-number{
+  font-family: 'cabin',sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 0em;
+  color: #f2f2f2;
+}
+
+.counter-title{
+  font-family: 'cabin',sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 0em;
+  color:#f2f2f2;
+}
+
+.counter__individual{
+  background-color:#006600;
+  padding: 4em;
+}
+
+/* Our Partners - Section - 6 */
 .partners__container {
   gap:5em;
 }
