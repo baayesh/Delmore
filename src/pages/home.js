@@ -5,7 +5,6 @@ import Services from "../components/home/services";
 import USP from "../components/home/usp";
 import Counter from "../components/counter";
 import About from "../components/home/about";
-import Products from "../components/home/products";
 import Getintouch from "../components/getintouch";
 import Footer from "../components/footer";
 import "../styles/home.css";
@@ -14,7 +13,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { FaPhone } from "react-icons/fa6";
 import Testimonials from "../components/home/testimonials";
 import Awards from "../components/home/awards";
-import Partners from '../components/home/partners';
+import Partners from "../components/home/partners";
 
 const Home = () => {
   return (
@@ -36,7 +35,6 @@ const Home = () => {
       <About />
       <Partners />
       <USP />
-      <Products />
       <Counter />
       <Awards />
       <Getintouch />
