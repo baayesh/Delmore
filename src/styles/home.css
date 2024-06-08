@@ -8,6 +8,7 @@
   position: fixed;
   right: 0;
   gap: 0.7em;
+  margin-top: 4em;
 }
 
 .contact-icon-div::before{
@@ -306,6 +307,7 @@
 /* Our Partners - Section - 6 */
 .partners__container {
   gap:5em;
+  margin: 4em auto;
 }
 
 .partners__right {
@@ -385,12 +387,27 @@
   background-color: #373a40;
 }
 
-.usp-img {
-  flex: 1;
-  display: block;
-  width: 50%;
-  margin-top: 3em;
+.image__stack__container{
+  position:relative;
+  flex: 2;
 }
+
+.image__stack__item{
+  position: absolute;
+  gap:0em;
+  top: 2;
+  transition: all 0.3s ease-in-out;
+
+
+}
+
+.image__stack__item.active{
+  opacity: 1;
+  z-index: 2;
+  top: 0;
+}
+
+
 
 /* Products - Section 6 */
 .products-container {
@@ -649,5 +666,13 @@
 .testimonials-card-3-party-content {
   text-align: left;
 }
+
+
+
+/* Z-indexes of all components
+    header - 10
+
+*/
+  
 
 

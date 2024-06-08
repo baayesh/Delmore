@@ -1,9 +1,19 @@
 import React from "react";
+import { useState } from "react";
 import "../../styles/home.css";
 import { FaHandPointRight } from "react-icons/fa";
 import usp from "../../assets/usp.jpg";
 
 const USP = () => {
+  // use state for change state when user click on the image
+  const [activeImage, setActiveImage] = useState(1);
+
+  // change active index
+  const imageHandleClick = (index) => {
+    setActiveImage(index);
+    console.log(index); 
+  };
+
   return (
     <div className="usp-main">
       <div className="usp-cta">
@@ -29,8 +39,35 @@ const USP = () => {
           </div>{" "}
         </button>
       </div>
-      <div className="usp-img">
-        <img src={usp} />
+      <div className="row image__stack__container">
+        <div>
+          <img
+            src={usp}
+            className={`image__stack__item ${
+              activeImage === 0 ? "active" : ""
+            }`}
+            onClick={()=>imageHandleClick(0)}
+          />
+        </div>
+        <div>
+          <img
+            src={usp}
+            className={`image__stack__item ${
+              activeImage === 1 ? "active" : ""
+            }`}
+            onClick={()=>imageHandleClick(1)}
+          />
+        </div>
+        <div>
+          <img
+            src={usp}
+            className={`image__stack__item ${
+              activeImage === 2 ? "active" : ""
+            }`}
+            onClick={()=>imageHandleClick(2)}
+          />
+        </div>
+    
       </div>
     </div>
   );
