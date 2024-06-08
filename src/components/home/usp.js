@@ -11,7 +11,6 @@ const USP = () => {
   // change active index
   const imageHandleClick = (index) => {
     setActiveImage(index);
-    console.log(index); 
   };
 
   return (
@@ -43,31 +42,26 @@ const USP = () => {
         <div>
           <img
             src={usp}
-            className={`image__stack__item ${
-              activeImage === 0 ? "active" : ""
-            }`}
-            onClick={()=>imageHandleClick(0)}
+            className={`image__stack__item ${activeImage === 0 ? "active" : ""}`}
+            onClick={() => imageHandleClick(0)}
           />
         </div>
-        <div>
+<div>
+  
           <img
             src={usp}
-            className={`image__stack__item ${
-              activeImage === 1 ? "active" : ""
-            }`}
-            onClick={()=>imageHandleClick(1)}
+            className={`image__stack__item ${activeImage === 1 ? "active" : ""}`}
+            onClick={() => imageHandleClick(1)}
           />
-        </div>
-        <div>
+</div>
+<div>
+  
           <img
             src={usp}
-            className={`image__stack__item ${
-              activeImage === 2 ? "active" : ""
-            }`}
-            onClick={()=>imageHandleClick(2)}
+            className={`image__stack__item ${activeImage === 2 ? "active" : ""}`}
+            onClick={() => imageHandleClick(2)}
           />
-        </div>
-    
+</div>
       </div>
     </div>
   );
