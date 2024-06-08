@@ -219,7 +219,8 @@
 
 .about__text__container p {
   text-align: left;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.1ch;
+  line-height: 2ch;
 }
 
 .about__image__container img {
@@ -384,7 +385,7 @@
   position: relative;
   flex: 3;
   max-width: 1440px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .image__stack__item {
