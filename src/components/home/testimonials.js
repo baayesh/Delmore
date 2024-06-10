@@ -31,9 +31,9 @@ const Testimonials = () => {
               </p>
             </div>
             <div className="testimonials-card-3-party row">
-              <div className="testimonials-card-2-party-img">
+              {/* <div className="testimonials-card-2-party-img">
                 <img src={person} alt="" />
-              </div>
+              </div> */}
               <div className="column testimonials-card-3-party-content">
                 <h5 className="subheading__2">Name</h5>
                 <p className="tag__2">Position</p>
@@ -50,9 +50,9 @@ const Testimonials = () => {
               </p>
             </div>
             <div className="testimonials-card-3-party row">
-              <div className="testimonials-card-3-party-img">
+              {/* <div className="testimonials-card-3-party-img">
                 <img src={person} alt="" />
-              </div>
+              </div> */}
               <div className="column testimonials-card-3-party-content">
                 <h5 className="subheading__2">Name</h5>
                 <p className="tag__2">Position</p>
@@ -68,9 +68,9 @@ const Testimonials = () => {
               </p>
             </div>
             <div className="testimonials-card-3-party row">
-              <div className="testimonials-card-2-party-img">
+              {/* <div className="testimonials-card-2-party-img">
                 <img src={person} alt="" />
-              </div>
+              </div> */}
               <div className="column testimonials-card-3-party-content">
                 <h5 className="subheading__2">Name</h5>
                 <p className="tag__2">Position</p>
