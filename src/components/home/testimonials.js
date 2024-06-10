@@ -41,19 +41,19 @@ const Testimonials = () => {
             </div>
           </div>
           {/* Card 2 */}
-          <div className="testimonials-card-2 column">
+          <div className="testimonials-card-3 column">
             <div> </div>
-            <div className="testimonials-card-2-content">
+            <div className="testimonials-card-3-content">
               <p className="paragraph">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
               </p>
             </div>
-            <div className="testimonials-card-2-party row">
-              <div className="testimonials-card-2-party-img">
+            <div className="testimonials-card-3-party row">
+              <div className="testimonials-card-3-party-img">
                 <img src={person} alt="" />
               </div>
-              <div className="column testimonials-card-2-party-content">
+              <div className="column testimonials-card-3-party-content">
                 <h5 className="subheading__2">Name</h5>
                 <p className="tag__2">Position</p>
               </div>
