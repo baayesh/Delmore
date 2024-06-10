@@ -46,13 +46,13 @@ const USP = () => {
           className={`image__stack__item image__1 ${
             activeImage === 0 ? "active" : ""
           }`}
-          onClick={() => imageHandleClick(0)}
+          onMouseOver={() => imageHandleClick(0)}
         />
 
         <img
           src={USP_2}
           className={`image__stack__item image__2 ${activeImage === 1 ? "active" : ""}`}
-          onClick={() => imageHandleClick(1)}
+          onMouseOver={() => imageHandleClick(1)}
         />
 
         <img
@@ -60,7 +60,7 @@ const USP = () => {
           className={`image__stack__item image__3 ${
             activeImage === 2 ? "active" : ""
           }`}
-          onClick={() => imageHandleClick(2)}
+          onMouseOver={() => imageHandleClick(2)}
         />
       </div>
     </div>
