@@ -24,7 +24,6 @@ const Counter = () => {
                       +
                     </h6>
                     <h4 className="counter-title">AWARDS</h4>
-                    <p className="paragraph">Sample Paragraph</p>
                   </div>
                
               </div>
@@ -37,7 +36,6 @@ const Counter = () => {
                     +
                   </h6>
                   <h4 className="counter-title">PRODUCTS</h4>
-                  <p className="paragraph">Sample Paragraph</p>
                 
               </div>
               <div className="col counter__individual"  style={{overflow:"hidden"}}>
@@ -49,7 +47,6 @@ const Counter = () => {
                     +
                   </h6>
                   <h4 className="counter-title">PARTNERS</h4>
-                  <p className="paragraph">Sample Paragraph</p>
               </div>
               <div className="col counter__individual" style={{overflow:"hidden"}}>
                 
@@ -60,7 +57,6 @@ const Counter = () => {
                   +
                 </h6>
                 <h4 className="counter-title">LOCATIONS</h4>
-                <p className="paragraph">Sample Paragraph</p>
             </div>
             </div>
           </div>
