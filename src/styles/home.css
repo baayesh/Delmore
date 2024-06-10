@@ -331,6 +331,7 @@
 .partners__left p {
   text-align: left;
 }
+
 /* USP - Section 5 */
 .usp-main {
   display: flex;
@@ -383,26 +384,41 @@
 
 .image__stack__container {
   position: relative;
-  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
   max-width: 1440px;
-  /* overflow: hidden; */
 }
 
 .image__stack__item {
-  position: absolute;
-  bottom: 0px;
+  top: 7em;
   transition: all 0.3s ease-in-out;
+  width: fit-content;
+  width: 60%;
+  position: absolute;
   margin-left: -8em;
-  border-radius: 2em ;
+  border-radius: 2em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
 }
 
 .image__stack__item.active {
-  opacity: 1;
   z-index: 2;
-  top: 100px;
-  transform: translateY(-100px);
-  transition: transform 1s ease-in-out;
+  filter: blur(0px) !important;
+  -webkit-filter: blur(0px) !important;
+}
+
+.image__1{
+  margin-left: -10em;
+}
+.image__2 {
+  margin-left: 0em;
+}
+
+.image__3 {
+  margin-left: 10em;
 }
 
 /* Products - Section 6 */

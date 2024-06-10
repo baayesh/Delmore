@@ -2,7 +2,9 @@ import React from "react";
 import { useState } from "react";
 import "../../styles/home.css";
 import { FaHandPointRight } from "react-icons/fa";
-import usp from "../../assets/usp.jpg";
+import USP_1 from "../../assets/USP/USP_1.jpg";
+import USP_2 from "../../assets/USP/USP_2.png";
+import USP_3 from "../../assets/USP/USP_3.png";
 
 const USP = () => {
   // use state for change state when user click on the image
@@ -39,29 +41,27 @@ const USP = () => {
         </button>
       </div>
       <div className="row image__stack__container">
-        <div>
-          <img
-            src={usp}
-            className={`image__stack__item ${activeImage === 0 ? "active" : ""}`}
-            onClick={() => imageHandleClick(0)}
-          />
-        </div>
-<div>
-  
-          <img
-            src={usp}
-            className={`image__stack__item ${activeImage === 1 ? "active" : ""}`}
-            onClick={() => imageHandleClick(1)}
-          />
-</div>
-<div>
-  
-          <img
-            src={usp}
-            className={`image__stack__item ${activeImage === 2 ? "active" : ""}`}
-            onClick={() => imageHandleClick(2)}
-          />
-</div>
+        <img
+          src={USP_1}
+          className={`image__stack__item image__1 ${
+            activeImage === 0 ? "active" : ""
+          }`}
+          onClick={() => imageHandleClick(0)}
+        />
+
+        <img
+          src={USP_2}
+          className={`image__stack__item image__2 ${activeImage === 1 ? "active" : ""}`}
+          onClick={() => imageHandleClick(1)}
+        />
+
+        <img
+          src={USP_3}
+          className={`image__stack__item image__3 ${
+            activeImage === 2 ? "active" : ""
+          }`}
+          onClick={() => imageHandleClick(2)}
+        />
       </div>
     </div>
   );
