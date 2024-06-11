@@ -452,6 +452,7 @@
 .get-in-touch-container {
   background-color: #80ff003d;
   padding: 5em 0em;
+  margin-top: 2em;
 }
 
 .get-in-touch-main {
@@ -461,8 +462,7 @@
   justify-content: space-around;
 }
 
-.get-in-touch-left {
-}
+
 
 .get-in-touch-left h1 {
   font-family: "cabin", sans-serif;
