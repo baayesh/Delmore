@@ -11,56 +11,54 @@ const Counter = () => {
       onExit={() => setCounterOn(false)}
     >
       <div>
-        <div className="counter-container container">
-          <div className="row ">
+        <div className="counter-container container row">
           <div
-              className="col counter__individual "
-              style={{ overflow: "hidden" }}
-            >
-              <h6 className="counter-number ">
-                {counterOn && (
-                  <CountUp start={0} end={20} duration={3} delay={0} />
-                )}
-                +
-              </h6>
-              <h4 className="counter-title">AWARDS</h4>
-            </div>
-            <div
-              className="col counter__individual "
-              style={{ overflow: "hidden" }}
-            >
-              <h6 className="counter-number ">
-                {counterOn && (
-                  <CountUp start={0} end={20} duration={3} delay={0} />
-                )}
-                +
-              </h6>
-              <h4 className="counter-title">PRODUCTS</h4>
-            </div>
-            <div
-              className="col counter__individual"
-              style={{ overflow: "hidden" }}
-            >
-              <h6 className="counter-number ">
-                {counterOn && (
-                  <CountUp start={0} end={15} duration={3} delay={0} />
-                )}
-                +
-              </h6>
-              <h4 className="counter-title">PARTNERS</h4>
-            </div>
-            <div
-              className="col counter__individual"
-              style={{ overflow: "hidden" }}
-            >
-              <h6 className="counter-number ">
-                {counterOn && (
-                  <CountUp start={0} end={10} duration={3} delay={0} />
-                )}
-                +
-              </h6>
-              <h4 className="counter-title">LOCATIONS</h4>
-            </div>
+            className="col counter__individual "
+            style={{ overflow: "hidden" }}
+          >
+            <h6 className="counter-number ">
+              {counterOn && (
+                <CountUp start={0} end={20} duration={3} delay={0} />
+              )}
+              +
+            </h6>
+            <h4 className="counter-title">AWARDS</h4>
+          </div>
+          <div
+            className="col counter__individual "
+            style={{ overflow: "hidden" }}
+          >
+            <h6 className="counter-number ">
+              {counterOn && (
+                <CountUp start={0} end={20} duration={3} delay={0} />
+              )}
+              +
+            </h6>
+            <h4 className="counter-title">PRODUCTS</h4>
+          </div>
+          <div
+            className="col counter__individual"
+            style={{ overflow: "hidden" }}
+          >
+            <h6 className="counter-number ">
+              {counterOn && (
+                <CountUp start={0} end={15} duration={3} delay={0} />
+              )}
+              +
+            </h6>
+            <h4 className="counter-title">PARTNERS</h4>
+          </div>
+          <div
+            className="col counter__individual"
+            style={{ overflow: "hidden" }}
+          >
+            <h6 className="counter-number ">
+              {counterOn && (
+                <CountUp start={0} end={10} duration={3} delay={0} />
+              )}
+              +
+            </h6>
+            <h4 className="counter-title">LOCATIONS</h4>
           </div>
         </div>
       </div>

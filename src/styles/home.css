@@ -249,12 +249,16 @@
 .about__button:hover {
   background-color: #44464b;
 }
+
+
 /* Counter - Section - 4 */
 
 .counter-container {
   padding: 4em 0em;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2em;
 }
-
 
 .counter-number {
   display: flex;
@@ -276,24 +280,18 @@
   left: 0;
 }
 
-
 .counter__individual {
-  margin-right: 2em;
   width: 20em;
   background-color: #006600;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 3em;
-  gap: 2em;
- 
-
+  padding: 2em;
 }
 
 .counter__individual h4 {
-  margin-top: 2em;
+  margin-top: 1em;
   color: #f2f2f2;
 }
-
 
 /* Our Partners - Section - 6 */
 .partners__container {
@@ -403,19 +401,17 @@
   z-index: 2;
   filter: blur(0px) !important;
   -webkit-filter: blur(0px) !important;
-  box-shadow: 0 4px 8px 0 rgba(0,102,0,0.3), 0 10px 20px 0 rgba(0, 102, 0, 0.3);
+  /* box-shadow: 0 4px 8px 0 rgba(0,102,0,0.3), 0 10px 20px 0 rgba(0, 102, 0, 0.3); */
 }
 
-.image__1{
-margin-left: -40em;
-
+.image__1 {
+  margin-left: -40em;
 }
 .image__2 {
 }
 
 .image__3 {
- margin-left: 40em;
-
+  margin-left: 40em;
 }
 
 /* Products - Section 6 */
@@ -454,7 +450,7 @@ margin-left: -40em;
 
 /* Contact Us(Get in Touch) - Section 7 */
 .get-in-touch-container {
-  background-color: #80ff00;
+  background-color: #80ff003d;
   padding: 5em 0em;
 }
 
@@ -529,7 +525,7 @@ margin-left: -40em;
   position: relative;
 }
 
-.email__submission__container input:focus{
+.email__submission__container input:focus {
   outline: none;
 }
 .email__submission__container button {
