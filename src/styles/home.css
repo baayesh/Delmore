@@ -350,7 +350,6 @@
 .usp-cta p {
   font-family: "cabin", sans-serif;
   font-weight: 400;
-  margin-botom: 0;
   font-size: 1.2rem;
   text-align: left;
   color: #707070;
@@ -370,6 +369,7 @@
   gap: 1em;
   cursor: pointer;
   border: 0px;
+  margin-bottom: 0.5em;
 }
 
 .usp-button:hover {
@@ -462,7 +462,7 @@
   justify-content: space-around;
 }
 
-
+  
 
 .get-in-touch-left h1 {
   font-family: "cabin", sans-serif;

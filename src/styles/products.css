@@ -1,0 +1,72 @@
+/* Products - Section 1 */
+.products-container {
+  margin-top: 5em;
+}
+
+.categorizd__products__container {
+  gap: 2em;
+}
+
+.product__categories {
+  flex: 1;
+  margin-top: 3em;
+}
+
+.product__categories button {
+  padding: 1em;
+  border-width: 0;
+  border-radius: 2em;
+  margin: 0.4em 0em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+.product__categories button:hover {
+  background-color: #006600;
+  color: white;
+}
+
+.active__product {
+  color: white;
+  background-color: #006600 !important;
+}
+
+.category__selection {
+  padding: 1em;
+  border-width: 0;
+  margin: 0.5em 0em;
+}
+
+.categorized__products {
+  flex: 10;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  text-align: left;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.products-title h1 {
+  font-family: "cabin", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.product h3 {
+  font-family: "cabin", sans-serif;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 0.4em;
+  letter-spacing: 0rem;
+  font-size: 1.3rem;
+}
+
+.product p {
+  color: #707070;
+  font-size: 0.85rem;
+}
