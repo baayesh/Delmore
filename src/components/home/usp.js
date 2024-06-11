@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import "../../styles/home.css";
 import { FaHandPointRight } from "react-icons/fa";
-import USP_1 from "../../assets/USP/USP_1.jpg";
+import USP_1 from "../../assets/USP/USP_1.png";
 import USP_2 from "../../assets/USP/USP_2.png";
 import USP_3 from "../../assets/USP/USP_3.png";
 

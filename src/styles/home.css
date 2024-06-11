@@ -384,39 +384,38 @@
   justify-content: center;
   align-items: center;
   flex: 2;
-  max-width: 1440px;
 }
 
 .image__stack__item {
   top: 7em;
-  transition: all 0.3s ease-in-out;
-  width: fit-content;
-  width: 60%;
+  transition: all 0.5s ease-in-out;
+  width: 25%;
   position: absolute;
-  margin-left: -8em;
   border-radius: 2em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
-  filter: blur(8px);
-  -webkit-filter: blur(3px);
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
 }
 
 .image__stack__item.active {
+  margin-top: -2em;
+  width: 32%;
   z-index: 2;
   filter: blur(0px) !important;
   -webkit-filter: blur(0px) !important;
+  box-shadow: 0 4px 8px 0 rgba(0,102,0,0.3), 0 10px 20px 0 rgba(0, 102, 0, 0.3);
 }
 
 .image__1{
-  margin-left: -10em;
-  margin-top: -2em;
+margin-left: -40em;
+
 }
 .image__2 {
-  margin-left: 0em;
 }
 
 .image__3 {
-  margin-left: 10em;
-  margin-top: 2em;
+ margin-left: 40em;
+
 }
 
 /* Products - Section 6 */
