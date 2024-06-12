@@ -1,15 +1,21 @@
 import React from "react";
-import '../../styles/home.css';
+import "../../styles/home.css";
 import { FaBucket } from "react-icons/fa6";
 import { IconContext } from "react-icons";
 import { LuPackageCheck } from "react-icons/lu";
 import { FaHouse } from "react-icons/fa6";
 import { CgMenuGridR } from "react-icons/cg";
+import { motion } from "framer-motion";
 
 const Services = () => {
   return (
     <section className="services-container">
-      <div className="individual-service-container">
+      <motion.div
+        initial={{ opacity: 0, scale: 0.2 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5 }}
+        className="individual-service-container"
+      >
         <IconContext.Provider value={{ color: "white", size: "2em" }}>
           <div className="service-icon">
             <FaBucket />
@@ -20,61 +26,74 @@ const Services = () => {
         </div>
         <div className="service-description">
           <p>
-          NVestibulum rutum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque ante.
+            NVestibulum rutum, mi nec elementum vehicula, eros quam gravida
+            nisl, id fringilla neque ante.
           </p>
         </div>
-      </div>
-      <div className="individual-service-container">
-      <IconContext.Provider value={{ color: "white", size: "2em" }}>
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0, scale: 0.2 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5, delay: 0.2 }}
+        className="individual-service-container"
+      >
+        <IconContext.Provider value={{ color: "white", size: "2em" }}>
           <div className="service-icon">
-          <LuPackageCheck />
+            <LuPackageCheck />
           </div>
         </IconContext.Provider>
         <div className="service-title">
-          <h4>
-          EXPORT PARTNERSHIPS
-          </h4>
+          <h4>EXPORT PARTNERSHIPS</h4>
         </div>
         <div className="service-description">
           <p>
-          NVestibulum rutum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque ante.
+            NVestibulum rutum, mi nec elementum vehicula, eros quam gravida
+            nisl, id fringilla neque ante.
           </p>
         </div>
-      </div>
-      <div className="individual-service-container">
-      <IconContext.Provider value={{ color: "white", size: "2em" }}>
+      </motion.div>
+      <motion.div 
+          initial = {{opacity:0, scale:0.2}}
+          animate = {{opacity:1, scale:1}}
+          transition={{duration:0.5, delay:0.4}}
+      
+      className="individual-service-container">
+        <IconContext.Provider value={{ color: "white", size: "2em" }}>
           <div className="service-icon">
-          <FaHouse />
+            <FaHouse />
           </div>
         </IconContext.Provider>
         <div className="service-title">
-          <h4>
-          FLEXIBLE OFFICE SOLUTIONS
-          </h4>
+          <h4>FLEXIBLE OFFICE SOLUTIONS</h4>
         </div>
         <div className="service-description">
           <p>
-          NVestibulum rutum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque ante.
+            NVestibulum rutum, mi nec elementum vehicula, eros quam gravida
+            nisl, id fringilla neque ante.
           </p>
         </div>
-      </div>
-      <div className="individual-service-container">
-      <IconContext.Provider value={{ color: "white", size: "2em" }}>
+      </motion.div>
+      <motion.div 
+          initial = {{opacity:0, scale:0.2}}
+          animate = {{opacity:1, scale:1}}
+          transition={{duration:0.5, delay:0.6}}
+      
+      className="individual-service-container">
+        <IconContext.Provider value={{ color: "white", size: "2em" }}>
           <div className="service-icon">
-          <CgMenuGridR />
+            <CgMenuGridR />
           </div>
         </IconContext.Provider>
         <div className="service-title">
-          <h4>
-          SUPPLY CHAIN & LOGISTICS SERVICES
-          </h4>
+          <h4>SUPPLY CHAIN & LOGISTICS SERVICES</h4>
         </div>
         <div className="service-description">
           <p>
-          NVestibulum rutum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque ante.
+            NVestibulum rutum, mi nec elementum vehicula, eros quam gravida
+            nisl, id fringilla neque ante.
           </p>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };
