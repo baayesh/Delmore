@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/footer.css";
 import logo from "../assets/logo/logo.png";
+import logo__footer from '../assets/logo/Logo__footer.png'
 import { FaFacebookF } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -12,35 +13,40 @@ const Footer = () => {
     <div className="footer-container">
       <div className="footer-main">
         <div className="footer-column">
-          <h3>LINK</h3>
+          <h3>QUICK LINKS</h3>
           <p>Home</p>
           <p>About</p>
           <p>Video</p>
           <p>Contacts</p>
-          <img src={logo} className="logo-footer" />
+          <img src={logo__footer} className="logo-footer" />
         </div>
         <div className="footer-column">
-          <h3>YOUTUBE</h3>
-          <p>Test 1</p>
-          <p>Test 2</p>
-          <p>Test 3</p>
-          <p>Test 4</p>
-          <p>Test 5</p>
-          <p>Test 6</p>
+          <h3>SERVICES</h3>
+          <p>Import Solutions</p>
+          <p>Export Partnerships</p>
+          <p>Flexible Office Solutions</p>
+          <p>Supply Chain and Logistic Services</p>
+
         </div>
         <div className="footer-column">
-          <h3>HELP CENTER</h3>
-          <p>Privacy Policy</p>
-          <p>Terms and Conditions</p>
+          <h3>PRODUCTS</h3>
+          <p>Best Sellers</p>
+          <p>Fresh Produce</p>
+          <p>Herbal Drinks</p>
+          <p>Commodities</p>
+          <p>Value Additions</p>
         </div>
         <div className="footer-column">
-          <h3>SUBSCRIBE AND WATCH MORE</h3>
-          <p>we’ll reach out over email to set up a call</p>
+          <h3>OFFICE SPACES</h3>
+          <p>Nawala</p>
+          <p>Nugegoda</p>
           <div className="row footer-social">
             <div className="social-media-icon-container">
               <FaFacebookF className="social-media-icon" />
+            
             </div>
-
+            <p>Like us on Facebook</p>
+{/* 
             <div className="social-media-icon-container">
               <AiFillInstagram  className="social-media-icon"/>
             </div>
@@ -49,7 +55,7 @@ const Footer = () => {
             </div>
             <div className="social-media-icon-container">
               <SiTwitter className="social-media-icon"/>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
