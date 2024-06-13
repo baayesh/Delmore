@@ -13,7 +13,7 @@ const Counter = () => {
       <div>
         <div className="counter-container container row">
           <div
-            className="col counter__individual "
+            className="row counter__individual "
             style={{ overflow: "hidden" }}
           >
             <h6 className="counter-number ">
@@ -25,7 +25,7 @@ const Counter = () => {
             <h4 className="counter-title">AWARDS</h4>
           </div>
           <div
-            className="col counter__individual "
+            className="row counter__individual "
             style={{ overflow: "hidden" }}
           >
             <h6 className="counter-number ">
@@ -37,7 +37,7 @@ const Counter = () => {
             <h4 className="counter-title">PRODUCTS</h4>
           </div>
           <div
-            className="col counter__individual"
+            className="row counter__individual"
             style={{ overflow: "hidden" }}
           >
             <h6 className="counter-number ">
@@ -49,7 +49,7 @@ const Counter = () => {
             <h4 className="counter-title">PARTNERS</h4>
           </div>
           <div
-            className="col counter__individual"
+            className="row counter__individual"
             style={{ overflow: "hidden" }}
           >
             <h6 className="counter-number ">

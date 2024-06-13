@@ -300,16 +300,19 @@
 }
 
 .counter__individual {
-  width: 20em;
+  width: 18em;
   background-color: #006600;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2em;
   padding: 2em;
+  gap: 0.8em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .counter__individual h4 {
-  margin-top: 1em;
   color: #f2f2f2;
+  letter-spacing: 0.2ch;
 }
 
 /* Our Partners - Section - 6 */

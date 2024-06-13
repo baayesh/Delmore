@@ -18,7 +18,7 @@ const About = () => {
             transition={{ duration: 1, delay:0.4 }}
             viewport={{once:true}}
 
-          >
+           >
             <h5 className="heading">
               Chris Wicks Based In Los Angeles Since 2009.
             </h5>
@@ -45,7 +45,7 @@ const About = () => {
             transition={{ duration: 1, delay: 1 }}
             viewport={{ once: true }}
             className="about__button"
-          >
+            >
             Learn More{" "}
             <div>
               <FaHandPointRight />
