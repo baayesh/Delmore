@@ -3,7 +3,7 @@ import product from "../../assets/Products/products.png";
 import { useState } from "react";
 
 const ProductsCat = () => {
-  const [activeProductCategory, setActiveProductCategory] = useState(0);
+  const [activeProductCategory, setActiveProductCategory] = useState(1);
 
   const handleActiveProductCategory = (index) => {
     setActiveProductCategory(index);

@@ -218,38 +218,38 @@
 /* About Us - Section 3 */
 .about-container {
   background-color: #373a40;
-  padding: 5em 0em;
+  padding: 0em 0em;
   color: #f2f2f2;
-}
-.about__container {
-}
-
-.about__image__container {
-  flex: 2;
+  position: relative;
 }
 
-.about__text__container {
-  flex: 2;
-}
-
-.about__text__container h5 {
+.about__content__container{
   text-align: left;
+  position: absolute;
+  margin-left: 14em;
+  bottom: 0;
+  margin-bottom: 2em;
 }
 
-.about__text__container p {
-  text-align: left;
-  letter-spacing: 0.1ch;
-  line-height: 2ch;
+.about__content__container h5{
+
 }
 
-.about__image__container img {
-  max-width: 20em;
+.about__content__container p{
+
+  max-width: 30em;
+
 }
+
+
+
+
+
+
 
 .about__button {
   display: flex;
   flex-direction: row;
-  justify-self: left;
   max-width: 12em;
   font-family: "cabin", sans-serif;
   font-size: 1.1rem;
@@ -261,8 +261,9 @@
   gap: 1em;
   cursor: pointer;
   border: 0px;
-  margin-top: 1em;
-  left: 0;
+  margin-top: 2em;
+
+
 }
 
 .about__button:hover {
@@ -304,7 +305,7 @@
   background-color: #006600;
   align-items: center;
   justify-content: center;
-  border-radius: 2em;
+  /* border-radius: 2em; */
   padding: 2em;
   gap: 0.8em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
