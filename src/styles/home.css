@@ -113,28 +113,29 @@
   margin: 0;
 }
 /* Hero - Section 1 */
-/* .hero {
+ .hero {
   background: linear-gradient(to bottom, #80ff00, #006600);
   color: #fff;
+  height: 15em;
   padding: 100px 0;
   text-align: left;
   margin: 2em auto;
-  margin-top: 1em;
-} */
+  margin-top: 5em;
+} 
 
 .hero-container {
-  /* padding-left: 3em; */
-  /* margin: 0 auto; */
+   padding-left: 3em; 
+   margin: 0 auto; 
 }
 
-.hero__vid{
+/* .hero__vid{
   margin-top: 4em;
   margin-left: 0;
   height: calc(60vh);
   width:100%;
   object-fit: cover;
   position: relative;
-}
+} */
 
 .hero-title {
   font-size: 5rem;
@@ -144,7 +145,7 @@
   display: flex;
   align-items: end;
   position: absolute;
-  top: 3em;
+  top: 2em;
   left: 2em;
   color: white;
 
@@ -158,7 +159,7 @@
   margin-top: 0;
   line-height: 1.5;
   position: absolute;
-  top: 17em;
+  top: 13em;
   left: 6.8em;
   color: white;
 }

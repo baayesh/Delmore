@@ -14,6 +14,7 @@ const Services = () => {
         initial={{ opacity: 0, scale: 0.2 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
+        viewport={{once:true}}
         className="individual-service-container"
       >
         <IconContext.Provider value={{ color: "white", size: "2em" }}>
@@ -36,6 +37,7 @@ const Services = () => {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5, delay: 0.2 }}
         className="individual-service-container"
+        viewport={{once:true}}
       >
         <IconContext.Provider value={{ color: "white", size: "2em" }}>
           <div className="service-icon">
@@ -56,6 +58,7 @@ const Services = () => {
           initial = {{opacity:0, scale:0.2}}
           animate = {{opacity:1, scale:1}}
           transition={{duration:0.5, delay:0.4}}
+          viewport={{once:true}}
       
       className="individual-service-container">
         <IconContext.Provider value={{ color: "white", size: "2em" }}>
@@ -77,6 +80,7 @@ const Services = () => {
           initial = {{opacity:0, scale:0.2}}
           animate = {{opacity:1, scale:1}}
           transition={{duration:0.5, delay:0.6}}
+          viewport={{once:true}}
       
       className="individual-service-container">
         <IconContext.Provider value={{ color: "white", size: "2em" }}>
