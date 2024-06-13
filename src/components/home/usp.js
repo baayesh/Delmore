@@ -1,7 +1,7 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "../../styles/home.css";
 import { FaHandPointRight } from "react-icons/fa";
+import { motion, useInView } from "framer-motion";
 import USP_1 from "../../assets/USP/USP_1.png";
 import USP_2 from "../../assets/USP/USP_2.png";
 import USP_3 from "../../assets/USP/USP_3.png";
@@ -14,6 +14,15 @@ const USP = () => {
   const imageHandleClick = (index) => {
     setActiveImage(index);
   };
+
+  // Reference in viewport
+  const ref = useRef(null);
+  const isInView = useInView(ref)
+
+
+  useEffect(() => {
+    setActiveImage(1);
+  }, [isInView])
 
   return (
     <div className="usp-main">
@@ -40,8 +49,12 @@ const USP = () => {
           </div>{" "}
         </button>
       </div>
-      <div className="row image__stack__container">
-        <img
+      <div ref={ref} className="row image__stack__container">
+        <motion.img
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.5 }}
+          viewport={{once:true}}
           src={USP_1}
           className={`image__stack__item image__1 ${
             activeImage === 0 ? "active" : ""
@@ -49,13 +62,23 @@ const USP = () => {
           onMouseOver={() => imageHandleClick(0)}
         />
 
-        <img
+        <motion.img
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+          viewport={{once:true}}
           src={USP_2}
-          className={`image__stack__item image__2 ${activeImage === 1 ? "active" : ""}`}
+          className={`image__stack__item image__2 ${
+            activeImage === 1 ? "active" : ""
+          }`}
           onMouseOver={() => imageHandleClick(1)}
         />
 
-        <img
+        <motion.img
+          initial={{ opacity: 0, y: -50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.5 }}
+          viewport={{once:true}}
           src={USP_3}
           className={`image__stack__item image__3 ${
             activeImage === 2 ? "active" : ""
