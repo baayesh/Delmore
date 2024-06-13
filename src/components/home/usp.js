@@ -51,9 +51,9 @@ const USP = () => {
       </div>
       <div ref={ref} className="row image__stack__container">
         <motion.img
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.5 }}
+          initial={{ opacity: 0.5, scale:0.9 }}
+          whileInView={{ opacity: 1, scale:1}}
+          transition={{ duration:1, delay: 1 }}
           viewport={{once:true}}
           src={USP_1}
           className={`image__stack__item image__1 ${
@@ -63,7 +63,7 @@ const USP = () => {
         />
 
         <motion.img
-          initial={{ opacity: 0 }}
+          initial={{ opacity: 0.6 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1 }}
           viewport={{once:true}}
@@ -75,9 +75,9 @@ const USP = () => {
         />
 
         <motion.img
-          initial={{ opacity: 0, y: -50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.5 }}
+          initial={{ scale:0.9, opacity: 0.5 }}
+          whileInView={{ scale:1, opacity: 1  }}
+          transition={{ duration: 1, delay: 1 }}
           viewport={{once:true}}
           src={USP_3}
           className={`image__stack__item image__3 ${
