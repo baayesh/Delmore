@@ -1,7 +1,7 @@
 .header-container{
     width: 100vw;
     position: fixed;
-    background-color: white;
+    background-color: #7b7b7b;
     top :0;
     z-index:10;
 
@@ -43,7 +43,7 @@
   
 .nav-link {
     text-decoration: none;
-    color: #7b7b7b;
+    color: white;
     padding: 5px 10px;
     font-family: 'cabin', sans-serif;
     font-size: 0.9rem;
@@ -51,8 +51,8 @@
 }
   
 .nav-link:hover {
+    color: white ;
     text-decoration: underline;
-    color: var(--secondary-color);
 }
 
 
