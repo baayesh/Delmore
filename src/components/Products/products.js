@@ -42,96 +42,93 @@ const ProductsCat = () => {
             >
               Herbal Drinks
             </button>
-            <button 
-            onClick={() => handleActiveProductCategory(4)}
-            className={`tag__1 ${activeProductCategory === 4 ? 'active__product' : ''}`}>Commodities</button>
-            <button 
-            onClick={() => handleActiveProductCategory(5)}
-            className=
-            {`tag__1 ${activeProductCategory ===5 ? 'active__product': ''}`}
-            
-            >Value Additions</button>
+            <button
+              onClick={() => handleActiveProductCategory(4)}
+              className={`tag__1 ${
+                activeProductCategory === 4 ? "active__product" : ""
+              }`}
+            >
+              Commodities
+            </button>
+            <button
+              onClick={() => handleActiveProductCategory(5)}
+              className={`tag__1 ${
+                activeProductCategory === 5 ? "active__product" : ""
+              }`}
+            >
+              Value Additions
+            </button>
           </div>
-          <div className="column categorized__products">
-            <div className="row">
-              <div className="product column">
+          <div className="categorized__products">
+            <div className="product column">
+              <img src={product} alt="product" />
+              <h3>Product 1</h3>
+              <p className="paragraph">
+                Lorem ipsum sit amet Lorem ipsum sit amet Lore ipsum sit amet
+              </p>
+            </div>
+            <div>
+              <div className="product">
                 <img src={product} alt="product" />
                 <h3>Product 1</h3>
                 <p className="paragraph">
                   Lorem ipsum sit amet Lorem ipsum sit amet Lore ipsum sit amet
                 </p>
               </div>
-              <div>
-                <div className="product">
-                  <img src={product} alt="product" />
-                  <h3>Product 1</h3>
-                  <p className="paragraph">
-                    Lorem ipsum sit amet Lorem ipsum sit amet Lore ipsum sit
-                    amet
-                  </p>
-                </div>
-              </div>
-              <div>
-                <div className="product">
-                  <img src={product} alt="product" />
-                  <h3>Product 1</h3>
-                  <p className="paragraph">
-                    Lorem ipsum sit amet Lorem ipsum sit amet Lore ipsum sit
-                    amet
-                  </p>
-                </div>
-              </div>
-              <div>
-                <div className="product">
-                  <img src={product} alt="product" />
-                  <h3>Product 1</h3>
-                  <p className="paragraph">
-                    Lorem ipsum sit amet Lorem ipsum sit amet Lore ipsum sit
-                    amet
-                  </p>
-                </div>
+            </div>
+            <div>
+              <div className="product">
+                <img src={product} alt="product" />
+                <h3>Product 1</h3>
+                <p className="paragraph">
+                  Lorem ipsum sit amet Lorem ipsum sit amet Lore ipsum sit amet
+                </p>
               </div>
             </div>
-            <div className="row">
-              <div>
-                <div className="product">
-                  <img src={product} alt="product" />
-                  <h3>Product 1</h3>
-                  <p className="paragraph">
-                    Lorem ipsum sit amet Lorem ipsum sit amet Lore ipsum sit
-                    amet
-                  </p>
-                </div>
+            <div>
+              <div className="product">
+                <img src={product} alt="product" />
+                <h3>Product 1</h3>
+                <p className="paragraph">
+                  Lorem ipsum sit amet Lorem ipsum sit amet Lore ipsum sit amet
+                </p>
               </div>
-              <div>
-                <div className="product">
-                  <img src={product} alt="product" />
-                  <h3>Product 1</h3>
-                  <p className="paragraph">
-                    Lorem ipsum sit amet Lorem ipsum sit amet Lore ipsum sit
-                    amet
-                  </p>
-                </div>
+            </div>
+
+            <div>
+              <div className="product">
+                <img src={product} alt="product" />
+                <h3>Product 1</h3>
+                <p className="paragraph">
+                  Lorem ipsum sit amet Lorem ipsum sit amet Lore ipsum sit amet
+                </p>
               </div>
-              <div>
-                <div className="product">
-                  <img src={product} alt="product" />
-                  <h3>Product 1</h3>
-                  <p className="paragraph">
-                    Lorem ipsum sit amet Lorem ipsum sit amet Lore ipsum sit
-                    amet
-                  </p>
-                </div>
+            </div>
+            <div>
+              <div className="product">
+                <img src={product} alt="product" />
+                <h3>Product 1</h3>
+                <p className="paragraph">
+                  Lorem ipsum sit amet Lorem ipsum sit amet Lore ipsum sit amet
+                </p>
               </div>
-              <div>
-                <div className="product">
-                  <img src={product} alt="product" />
-                  <h3>Product 1</h3>
-                  <p className="paragraph">
-                    Lorem ipsum sit amet Lorem ipsum sit amet Lore ipsum sit
-                    amet
-                  </p>
-                </div>
+            </div>
+            <div>
+              <div className="product">
+                <img src={product} alt="product" />
+                <h3>Product 1</h3>
+                <p className="paragraph">
+                  Lorem ipsum sit amet Lorem ipsum sit amet Lore ipsum sit amet
+                </p>
+              </div>
+            </div>
+            <div>
+              <div className="product">
+                <img src={product} alt="product" />
+                <h3>Product 1</h3>
+                <p className="paragraph">
+                  Lorem ipsum sit amet Lorem ipsum sit amet Lore ipsum sit amet
+                </p>
               </div>
             </div>
           </div>

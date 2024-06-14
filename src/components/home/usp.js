@@ -70,7 +70,7 @@ const USP = () => {
           src={USP_2}
           className={`image__stack__item image__2 ${
             activeImage === 1 ? "active" : ""
-          }`}
+          } ${activeImage === 0 ? 'z__1':''}`}
           onMouseOver={() => imageHandleClick(1)}
         />
 
