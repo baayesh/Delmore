@@ -429,13 +429,20 @@
 }
 
 .image__1 {
-  margin-left: -40em;
+  margin-left: -25em;
 }
 .image__2 {
 }
 
 .image__3 {
-  margin-left: 40em;
+  margin-left: 25em;
+}
+
+.last__image{
+  width:20%;
+  z-index:-1;
+  margin-top: 2em;
+
 }
 
 /* Products - Section 6 */

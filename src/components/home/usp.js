@@ -58,7 +58,7 @@ const USP = () => {
           src={USP_1}
           className={`image__stack__item image__1 ${
             activeImage === 0 ? "active" : ""
-          }`}
+          } ${activeImage === 2 ? 'last__image':''}`}
           onMouseOver={() => imageHandleClick(0)}
         />
 
@@ -82,7 +82,7 @@ const USP = () => {
           src={USP_3}
           className={`image__stack__item image__3 ${
             activeImage === 2 ? "active" : ""
-          }`}
+          } ${activeImage === 0 ? "last__image":""}`}
           onMouseOver={() => imageHandleClick(2)}
         />
       </div>
